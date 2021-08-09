@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name ="description" content ="Here you can find all information about the HTML basic framework">
+	<title>Learn HTML: the basc framework</title>
+
+	<style>
+	body { background-color: #F5F5DC; }
+	</style>
+	
+	<style>
+	table{
+		width: 100%;
+		color: #fff;
+		border-collapse: collapse;
+	}	
+	th, td {
+		width: 50%;
+		color: #000;
+		border: 1px solid black;
+		border-collapse: collapse;
+	}
+	<!-- Poniendo bordes en la tabla-->
+	table, th, td{
+		border-collapse: collapse;
+	}
+	
+	<style>
+		.apers{
+			;
+		}
+	</style>
+	
+	</style>
+	<!-- Alineacion del texto de la tabla-->
+	<style>
+	table{
+		text-align: center;
+	}
+	</style>
+	<style>
+	p.one {
+		border-style: solid;
+		border-color: red;
+	}
+
+	p.two {
+		border-style: solid;
+		border-color: green;
+	} 
+
+	p.three {
+		border-style: dotted;
+		border-color: blue;
+	} 
+	</style>
+	<!-- en este estilo se encuentran escritos para poder encerrar en una tabla, lo que 
+	se quiere que este con este estilo se le oncierra entre <div>, este es para el primer cuadro -->
+	<style>
+		div.ex1{
+		border: 1px solid black;
+		background: rgba(123, 104, 238, 0.3);
+		height: 350px;
+		width: 82%;
+		padding-top: 20px;
+		padding-right: 30px;
+		padding-bottom: 20px;
+		padding-left: 80px;
+		}
+	</style>
+	<style>
+		.ex2{
+	<!--segunda funcion para la otra tabla-->
+		border: 1px solid black;
+		<!-- Aqui se pone por RGB los tres primeros es el color mienras que el ultimo
+		es la opacidad. Cada color tiene sus parametros https://www.w3schools.com/colors/color_tryit.asp?hex=7B68EE-->
+		width: 50%;
+		height: 150px;
+		background: rgba(152, 251, 152 , 1.0);
+		padding-top: 15px;
+		padding-right: 20px;
+		padding-bottom: 20px;
+		padding-left: 50px;
+	}
+	</style>
+	
+	<!--funcion para alinear a la derecha-->
+	<style>
+	.alinear{
+		margin: auto;
+		border: 3px solid #000000;
+		width: 600px;
+		<!--se pone el color de los bordes medianete codigo css-->
+		padding: 10px;
+	}
+	</style>
+	
+	
+	
+	
+</head>
+
+<body>
+
+	<h1> <i>Curriculum Vitae</i></h1>
+	
+	<!-- Insercion de una imagen -->
+	<img src="https://drive.google.com/file/d/1eKblkRCx3QpQzTHyUYNxtQKzJ_Chgv7z/view?usp=sharing" width="150" height="225" align="right">
+	
+	<h2><u>DATOS PERSONALES</u></h2>
+	<!-- Informacion general alineado al centro-->
+	<div class = "alinear">
+		<div class = "ex1">
+			<p><b>NOMBRES: </b>David Alexander</p>
+			<p><b>APELLIDOS: </b>Rivera Chungata</p>
+			<p><b>CEDULA DE CIUDADANIA: </b>0925321564</p>
+			<p><b>ESTADO CIVIL: </b>Soltero</p>
+			<p><b>LUGAR DE NACIMIENTO: </b>Guayaquil, Guayas</p>
+			<p><b>EDAD: </b>22 años</p>
+			<p><b>NACIONALIDAD: </b>Ecuatoriana</p>
+			<p><b>DIRECCION: </b>Ismael Perez Castro y Callejon Parra. Parroquia Febres Cordero</p>
+			<p><b>TELEFONO: </b>(042)756013 - 0996096372</p>
+		</div>
+	</div>	
+	
+	<div class = "apers">
+		<h2><u>ESTUDIOS REALIZADOS</u></h2>
+	</div>
+	
+	<div class = "alinear">
+		<div class = "ex2">
+	
+			<p><b>PRIMARIA: </b></p>
+			<ul>
+				<li>Escuela Particular "Juanita Fernandez Santana"</li>
+			</ul>
+			<p><b>SECUNDARIA: </b></p>
+			<ul>
+				<li>Unidad Educativa Particular "Atenas International School"</li>
+				<li>Unidad Educativa Particular "San Bernardo"</li>
+			</ul>
+		</div>
+	</div>
+	
+	<!-- Tabla alinado al centro y con bordes -->
+	<h2><u>INFORMACION PLANTELES EDUCATIVOS</u></h2>
+	
+	<div class = "alinear">
+		<table>
+			<thead>
+				<tr>
+					<th>Nombre</th>
+					<th>Direccion</th>
+					<th>Sistema</th>
+					<th>Tipo</th>
+				</tr>
+			</thead>
+			<tr>
+				<td>Juanita Fernandez Santana</td>
+				<td>Avenida 26 y Callejon Parra</td>
+				<td>Particular</td>
+				<td>Escuela</td>
+			</tr>
+			<tr>
+				<td>Atenas International School</td>
+				<td>Maracaibo y San Salvador</td>
+				<td>Particular</td>
+				<td>Jardin-Escuela_Colegio</td>
+			</tr>
+			<tr>
+				<td>San Bernardo</td>
+				<td>Avenida 22 y Francisco Segura</td>
+				<td>Particular</td>
+				<td>Jardin-Escuela_Colegio</td>
+			</tr>
+		</table>
+	</div>
+	
+	<video src="https://drive.google.com/file/d/15mkxRpdJZNy6Y6Aeo2pBaenQS5i7SmQL/view?usp=sharing" width=320  height=240 controls poster="https://drive.google.com/file/d/1aPpc0_Sawggyd5Zii61u5oC_roujQZjJ/view?usp=sharing">
+	
+	
+		
+</body>
